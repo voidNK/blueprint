@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyVersion>1.0.201.10</AssemblyVersion>
+    <FileVersion>1.0.201.10</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Blueprint.Abstractions\Blueprint.Abstractions.csproj" />
+  </ItemGroup>
+</Project>

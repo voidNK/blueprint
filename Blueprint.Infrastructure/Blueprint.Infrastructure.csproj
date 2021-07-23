@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyVersion>1.0.201.46</AssemblyVersion>
+    <FileVersion>1.0.201.46</FileVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.8" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="5.0.8" />
+    <PackageReference Include="MailKit" Version="2.13.0" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="5.0.0" />
+    <PackageReference Include="MimeKit" Version="2.13.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.11.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite.Core" Version="5.0.7" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="5.0.0" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql.NetTopologySuite" Version="5.0.0" />
+
+    <PackageReference Include="NetTopologySuite" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Blueprint.Abstractions\Blueprint.Abstractions.csproj" />
+    <ProjectReference Include="..\Blueprint.Application\Blueprint.Application.csproj" />
+    <ProjectReference Include="..\Blueprint.Common.EntityFrameworkCore.AuditTrail\Blueprint.Common.EntityFrameworkCore.AuditTrail.csproj" />
+    <ProjectReference Include="..\Blueprint.Common.Extensions.Caching\Blueprint.Common.Extensions.Caching.csproj" />
+    <ProjectReference Include="..\Blueprint.Common.Extensions.Logging\Blueprint.Common.Extensions.Logging.csproj" />
+    <ProjectReference Include="..\Blueprint.Domain\Blueprint.Domain.csproj" />
+  </ItemGroup>
+</Project>
